@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;user-scal=0.2 ">
+    <meta name="keywords" content="patnchai,farm1,busabongkot">
+    <title>FORM1</title>
+</head>
+<style>
+@media screen and (max-width:5000px) and (min-width:50px)
+ {div.view1{
+    font-size:25px;
+    border:8px solid darkgrey;
+    padding:20px;
+    text-align:center;
+    }
+  }
+  @media screen and (max-width:5000px) and (min-width:50px)
+  {div.view2
+    {
+        font-size:25px;
+        border:2px solid black;
+        Align:center;
+    }
+  }
+
+  @media screen and (max-width:5000px) and (min-width:50px)
+  {div.view3
+    {
+        font-size:25px;
+        border:2px solid black;
+        Align:center;
+    }
+  }
+
+ 
+</style>
+<div Align="center">
+    
+<div class="view1"  style="background:lightgreen;width:340px;text-align:center;">FARM1 MAIN</div>
+</div>
+<body><p>
+</div>
+<!-------------------------------------------------------------------------------->
+<div Align="center" ;>
+<img src="t2.jpeg"  width="340" height= "360">
+</div>
+<!-------------------------------------------------------------------------------->
+<div Align="center" ;>
+<div class="view2"   style="background-color:lightgreen;width:200px;text-align:center;">
+<a href="status1.php" > ZONE REVIEW </a>
+</div>
+</div>
+<p></p>
+<div Align="center" ;>
+<div class="view2"   style="background:lightgrey;width:200px;text-align:center;">
+
+<a href=" check_menu2.php" >CHECKING</a>
+</div>
+</div>
+<p></p>
+<div Align="center" ;>
+<div>
+<div class="view3"   style="background:#FFA500;width:200px;text-align:center;">
+
+<a href="login1.php" >SETTING</a>
+
+</div>
+</div>
+<p></p>
+<div Align="center" ;>
+<div class="view3"   style="background:lightblue;width:200px;text-align:center;">
+
+
+<a href="mng1.php">MAINTENANCE</a>
+</div>
+</div>
+
+
+</p>
+</h6> 
+</div>
+<!-------------------------------------------------------------------------------->
+
+<?php
+require("dbconnect.php");
+ // /*
+$sql9="UPDATE tt_check1 SET tx77 ='0',dd = now(),ck_name ='สถานี dddยังไม่ได้เชื่อมinternet' WHERE id='90'"; //ตรวจสอบสถานี+internet
+$result9=mysqli_query($con,$sql9);
+// */
+?>
+
+
+<!-------------------------------------------------------------------------------->
+
+ 
+<!-------------------------------------------------------------------------------->
+
+</body>
+</html>
